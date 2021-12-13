@@ -19,3 +19,6 @@ Concretely this means:
 The column descriptions specify any transformations done to the data.
 
 The IDs for children and households are consistent between the two datasets in this file, they are just not consistent with any of Max Foundation's other datasets. 
+
+### Data Cleaning
+We realise that these data are quite messy and some weight and height measurements are obviously entered in the wrong units (e.g. in grams rather than kilos). However, when automating this cleaning process, there is just a minor improvement in the reliability of the calculated z-scores (fewer than 300 observations lose a WHO-flag). Hence we decided to share the raw data with minimal cleaning.
