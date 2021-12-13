@@ -1,0 +1,17 @@
+# 2018 WASH Census
+
+### Content
+These data were collected between Q1 and Q3 in 2018 (with a few observations earlier and later) in the areas in Bangladesh where Max Foundation is active. The original data set is a census, and covers basically all households in the area (some could not be found or declined consent). In order to protect privacy, villages with fewer than 50 responses are excluded and only 15% of the data is present in this dataset, stratified by village. 
+The data were collected because in 2018 Max Foundation scaled up its operations, both geographically and thematically (from a focus on WASH (water, sanitation and hygiene) to including nutrition and food security). The data give a detailed picture of the access to WASH in the area. 
+
+
+### Privacy and links to our other data
+All of Max Foundation's data are collected and processed according to GDPR standards and explicit informed consent is given by all respondents. 
+
+Furthermore, we enforce strong privacy protections on our open data to minimise the risk of these data being used to cause harm or re-identify individuals.
+Concretely this means:
+- Administrative units up to the Union can be directly identified with the BD _loc _xx data (which can be found in the "location_info" folder). Village are masked by random numbers. However, to ensure it is still possible to compare our datasets, these random numbers are consistent across all datasets. This means that village '1' in this data is the same as village '1' in all of our other Bangladesh datasets, unless stated otherwise;
+- Household numbers are randomised and these are NOT kept the same between datasets;
+- Sensitive variables are omitted, censored or bucketed.
+
+The column descriptions specify any transformations done to the data.

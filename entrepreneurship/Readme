@@ -1,0 +1,18 @@
+# Entrepreneurship Data
+
+### Content
+Max Foundation's programmes are business-driven, locally owned and geared to creating sustainable solutions. We therefore work with, train and support entrepreneurs to help their communities access water, sanitation and hygiene, and nutrition products and services more easily. We collect revenue and cost data on these entrepreneurs annually. We work with different types of entrepreneurs who provide a range of products and services.
+- Health Promotion Agents (HPAs) sell small items such as sanitary napkins, soaps, family planning services, vegetable seeds and child growth measurements;
+- Local Sanitation Entrepreneurs (LEs) build latrines and other hardware; (NB we hope to add this data soon)
+- Sweepers empty latrines periodically and make small repairs or changes to latrines.
+Data is collected annually and the figures provided cover the entire year, unless stated otherwise. Note that the first dataset is most comprehensive, and covers basic demographic information as well. In later years we only collected financial information. The IDs of entrepreneurs are consistent between years, however, it must be noted that there is significant churn and many entrepreneurs either quit or shift their business focus to products not directly related to Max Foundation activities.
+Costs, revenues and profits are given in local currency (Bangladesh Taka).
+
+
+### Privacy and links to our other data
+All of Max Foundation's data are collected and processed according to GDPR standards and explicit informed consent is given by all respondents. 
+
+Furthermore, we enforce strong privacy protections on our open data to minimise the risk of these data being used to cause harm or re-identify individuals.
+Concretely this means:
+- Administrative units up to the Union can be directly identified with the BD_ loc_xx data  (which can be found in our Max Foundation Bangladesh 2018 WASH Census dataset). The ward and village are masked by random numbers. However, to ensure it is still possible to compare our data sets, these random numbers are consistent across all datasets. This means that village '1' in this data is the same as village '1' in all of our other Bangladesh datasets, unless stated otherwise;
+- Sensitive variables are omitted.

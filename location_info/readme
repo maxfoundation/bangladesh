@@ -1,0 +1,3 @@
+# Location Information
+
+For non-anonymised location information, these files offer a dictionary to link their location codes to the names of the district/upazila/union. The locID is the ID of that level's code, parentID is the ID of the administrative unit one level up.

@@ -1,0 +1,138 @@
+variable,meaning
+district,Highest administrative unit
+upazila,Administrative unit
+union,Administrative unit
+ward,"Administrative unit (anonymised, consistent between data sets)"
+village,"Administrative unit (anonymised, consistent between data sets)"
+date,Date of data collection (rounded to quarters)
+hh_id,"ID for the household (anonymised, inconsistent between data sets)"
+demo_gender,respondent's gender (M/F)
+demo_age,"respondent's age (grouped in 5-year buckets, 18-20=19, 21-25=23, 26-30=28,… >=51=53)"
+demo_educ,"respondent's education level (Illiterate, Read & Write, Primary, Secondary, Higher)"
+hh_size,"number of people in household (censored, 1-2 recoded to 2 and >=7 recoded to 7)"
+hh_size_u5,Whether or not there is a child under 5 in the household
+hh_pregnant,Whether or not there is a pregnant woman in the household
+hh_newmother,Whether or not there is a new mother in the household
+hh_ses,"household's socio-economic status (hard-core poor, poor, middle-income, rich)"
+water_access,"do you have access to safe water (no, partial, yes)"
+water_access_drink,Purpose of using safe water: Drinking (True/False)
+water_access_cook,Purpose of using safe water: Cooking (True/False)
+water_access_utensil,Purpose of safe using water: Cleaning utensils (True/False)
+water_access_clothes,Purpose of using safe water: Cleaning children's (<5) clothes (True/False)
+water_access_menstrual,Purpose of using safe water: Menstrual hygiene
+water_source,What is the main source of safe water for this household?
+water_available,Is water source accessible year around?
+water_invest_self,Investment in safe water source by household
+water_invest_hh_other,Investment in safe water source combined with other household
+water_invest_dphe,Investment in safe water source by Department of Public Health and Engineering
+water_invest_max,Investment in safe water source by Max Foundation
+water_invest_ngo,Investment in safe water source by other NGOs
+water_invest_up,Investment in safe water source by Union Parishad
+water_invest_other,Investment in safe water source by others
+water_invest_total,Total investment in safe water source 
+water_owner,Who owns the safe water Source?
+water_opex_yn,Do you contribute to Operation & Maintenance (O&M) cost?
+water_opex,How much did you pay for cost of Operation &Maintenance (O&M)? (BDT)
+water_test_regular,Is the water Source regularly tested?
+water_test_freq,How many times is the water source tested per year?
+water_test_arsenic,"According to water quality (Arsenic test) report, is the water drinkable?"
+water_test_bacteria,"According to water quality (Bacteriological test) report, is the water drinkable?"
+water_test_who,Who tests the water quality?
+water_dist_hh,Distance of the safe water Source from household?
+water_dist_latrine,Distance of the safe water Source from latrine?
+water_dist_dump,Distance of the safe water Source from the waste dumping station?
+water_collect_type,How is safe water collected?
+water_collect_clean,Do you wash pitcher before collecting water ?
+water_store_safe,Do you store water safely?
+water_collect_who,Who mainly collects the water?
+water_mgmt_trained,Do you have a trained water management group for safe water source?
+water_entrepreneur,Which entrepreneuris  involved in this household?
+latrine_access,Do you have access to improved sanitation?
+latrine_type,Which type of latrine facility do you use?
+latrine_owner,Who owns the latrine?
+latrine_share_num,How many households are sharing this latrine?
+latrine_invest_self,Investment in latrine by Household
+latrine_invest_hh_other,Investment in latrine combined with other household
+latrine_invest_dphe,Investment in latrine by Department of Public Health and Engineering
+latrine_invest_max,Investment in latrine by Max Foundation
+latrine_invest_ngo,Investment in latrine by other NGOs
+latrine_invest_up,Investment in latrine by Union Parishad
+latrine_invest_other,Investment in latrine by others
+latrine_invest_total,Total investment in latrines 
+latrine_opex_yn,Do you contribute to Operation & Maintenance (O&M) cost?
+latrine_opex,How much did you pay for the cost of Operation &Maintenance (O&M) of the latrine? (BDT)
+latrine_clean_water,Do you have any clean water system near to the latrine?
+latrine_clean_material,"Do you have cleaning materials (brush, chun) for your latrine?"
+latrine_clean_pan,Is your latrine's pan clean (faeces free)?
+latrine_clean_floor,Is your latrine's floor clean (faeces free)?
+latrine_clean_wall,Is your latrine's wall/ fence clean (faeces free)?
+latrine_dist_hh,How far is the latrine from your house?
+latrine_emptied_yn,Have you ever emptied your latrine/pit?
+latrine_emptied_access,Is emptying service (sweeper) locally available?
+latrine_emptied_by_self,Who emptied the pit: Self
+latrine_emptied_by_sweeper,Who emptied the pit: Local Sweeper
+latrine_emptied_opex,How much did you pay for the emtpying of the latrine? (BDT)
+latrine_emptied_contact,Whom did you contact for emptying service?
+latrine_emptied_sludge,What do you do with sludge after pit emptying?
+latrine_entrepreneur,Type of entrepreneur invovled (Health Promotion Agent/Local Entrepreneur)
+wash_access,Do you have access to hand washing device?
+wash_type_tipitap,Type of handwashing device used: Tipitap
+wash_type_bucket,Type of handwashing device used: Bucket and mug
+wash_type_basin,Type of handwashing device used: Maxi basin
+wash_type_jartap,Type of handwashing device used: Water jar / container and tap
+wash_type_ceramic,Type of handwashing device used: Ceramic / plastic
+wash_soap,Do you have any facility of soap and water near hand washing device?
+wash_near_latrine,Is hand washing device available in/near to the latrine?
+wash_near_dine,Is hand washing device available at the dining space?
+wash_invest_self,Investment in handwashing device by Household
+wash_invest_dphe,Investment in handwashing device by Department of Public Health and Engineering
+wash_invest_max,Investment in handwashing device by Max Foundation
+wash_invest_ngo,Investment in handwashing device by other NGOs
+wash_invest_up,Investment in handwashing device by Union Parishad
+wash_invest_other,Investment in handwashing device by Others
+wash_invest_total,Total investment in handwashing devices
+wash_opex_yn,Do you contribute to Operation & Maintenance (O&M) cost of your hand washing device?
+wash_opex,How much did you pay for the cost of Operation & Maintenance (O&M) of your hand washing device? (BDT)
+wash_entrepreneur,Type of entrepreneur involved with handwashing devices 
+srhr_access,Does this household have access to Sexual and Reproductive Health Rights (SRHR) services facilities?
+srhr_clinic_neighbourhood,Is there a community clinic in your neighbourhood?
+apnc_where_home,Location of receiving Ante- and Post-Natal Care: Home
+apnc_where_clinic,Location of receiving Ante- and Post-Natal Care: Community Clinic
+apnc_where_fwc,Location of receiving Ante- and Post-Natal Care: Family Welfare Center
+apnc_where_hfwc,Location of receiving Ante- and Post-Natal Care: Health & Family Welfare Center
+apnc_where_uhc,Location of receiving Ante- and Post-Natal Care: Upazila Health Complex
+apnc_where_hospital,Location of receiving Ante- and Post-Natal Care: Gvtl. Hospital
+apnc_where_ngo,Location of receiving Ante- and Post-Natal Care: NGO Clinic
+apnc_where_private,Location of receiving Ante- and Post-Natal Care: Private Clinic
+wbc_access,Do you have access to a women bathing chamber?
+wbc_owner,Who owns the women bathing chamber?
+wbc_invest_self,Investment in women bathing chamber by self
+wbc_invest_dphe,Investment in women bathing chamber by by Department of Public Health and Engineering
+wbc_invest_max,Investment in women bathing chamber by Max Foundation
+wbc_invest_ngo,Investment in women bathing chamber by other NGOs
+wbc_invest_up,Investment in women bathing chamber by Union Parishad
+wbc_invest_other,Investment in women bathing chamber by others
+wbc_invest_total,Total investment in women bathing chamber
+wbc_opex_yn,Do you contribute to Operation & Maintenance (O&M) cost?
+wbc_opex,How much you paid for the cost of Operation &Maintenance (O&M)? (BDT)
+wbc_water,Do you have clean water system near to women bathing chamber?
+napkin_use_napkin,Use during menstruation: Sanitary napkin
+napkin_use_cloth,Use during menstruation: Cloths
+napkin_use_other,Use during menstruation: Other materials
+napkin_use_nothing,Use during menstruation: Nothing
+napkin_opex,How much you spend monthly for buying sanitary napkin? (BDT)
+napkin_dispose,Where do you dispose used sanitary products?
+napkin_buy_hpa,Supplier of sanitary products: HPA
+napkin_buy_le,Supplier of sanitary products: LE
+napkin_buy_pharmacy,Supplier of sanitary products: Pharmacy
+napkin_buy_shop,Supplier of sanitary products: Local grocery shop
+napkin_buy_ngo,Supplier of sanitary products: NGOs
+napkin_buy_clinic,Supplier of sanitary products: Community Clinic
+napkin_buy_other,Supplier of sanitary products: Other
+child_measure_access,Are there child measurement facilities (weight and height ) available in your community ?
+child_measure_use,Do you measure your child (less than 5) ?
+child_measure_where,Where do you take your child for growth measurement?
+child_measure_freq,How often do you measure your child?
+child_measure_card,Do you have growth chart card for your child?
+flag_duplicated_id,Flag indicating whether the same household ID was entered for two different entries
+flag_wrong_id,"Flag indicating whether the original household ID had a problem (the original household ID is made up of the district to village code plus a few extra digits to make it unique, for some households the implied village code in their ID did not match the village they were reported to live in)"

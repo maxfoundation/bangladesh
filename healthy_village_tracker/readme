@@ -1,0 +1,19 @@
+# Healthy Village Tracker
+
+### Content
+These data are collected quarterly at the village-level, in aggregate. In Max Foundation's Healthy Village Approach, our team has created several indicators to track how villages are progressing on WASH (water, sanitation and hygiene), nutrition, and SRHR (sexual and reproductive health and rights) & Baby WASH. 
+
+
+### Privacy and links to our other data
+All of Max Foundation's data are collected and processed according to GDPR standards and explicit informed consent is given by all respondents. 
+
+Furthermore, we enforce strong privacy protections on our open data to minimise the risk of these data being used to cause harm or re-identify individuals.
+
+Concretely this means:
+- Administrative units up to the Union can be directly identified with the BD_ loc_xx data (which can be found in our Max Foundation Bangladesh 2018 WASH Census dataset). The ward and village are masked by random numbers. However, to ensure it is still possible to compare our data sets, these random numbers are consistent across all datasets. This means that village '1' in this data is the same as village '1' in all of our other Bangladesh datasets, unless stated otherwise.
+- Population counts have been bucketed. The values represent the mid-point of a given bucket, for the number of households in the village, which is bucketed at 20 households, the value 50 represents 40-60 households. The values have also been censored at the upper end, and some at the lower end as well.
+The column descriptions specify any transformations done to the data.
+
+A final note to anyone trying to link Max Foundation's various datasets; as data is self-reported, sometimes by individuals other times by communities as a whole, there may be differences in for instance the number of households or the number of stunted children in a given village in this dataset versus in another. Some differences can be explained by differences in definitions (a household is a concept that is often hard to define and its interpretation may vary from person to person), and others by a lack of information on the part of a respondent. We therefore encourage you to look at these differences and see which value makes the most sense for the specific analysis you are conducting. 
+
+

@@ -1,0 +1,287 @@
+﻿variable,meaning
+district,Highest administrative unit
+upazila,Administrative unit
+union,Administrative unit (up to this level we are certain of the validity of location information)
+village,"Administrative unit (anonymised, consistent between data sets, very often missing)"
+date,Date of data collection (rounded to quarters)
+hh_head_gender,What is the gender of the head of the household?
+hh_head_age,"What is the age of the head of the household? (their date of birth was given in the questionnaire, calculated into their age and bucketed; 18-25 = 21, 26-30 = 28, 31-35 = 33,… >45 = 43; ages over 80 or below 18 are ommitted)"
+hh_head_educ,What is the level of education of the head of the household?
+hh_ses,What is the households socio-economic status?
+hh_under12,How many household members are 12 years old or younger?
+asts_tv,Does the household own any televisions?
+asts_fan,Does the household own any fans?
+asts_phone,Does the household own any phones?
+asts_bike,"Does the household own any bicycle/motorcycle/scooter or motor car, etc?"
+agri_access,Does the household own (or rent/sharecrop/mortgage in or out) 51 or more decimals of cultivable land (excluding uncultivable & homestead)?
+know_nutri,What do you know about the nutritious foods?
+know_nutri_women_healthy,Nutritional benefits for adolescent girls and young women? - makes them strong & healthy
+know_nutri_women_anemia,Nutritional benefits for adolescent girls and young women? - prevents anemia
+meal_women_three,How many meals a day and types of food are usually given to adolescent girls and young women (including you) in your household? - at least three meals per day
+meal_women_diverse,How many meals a day and types of food are usually given to adolescent girls and young women (including you) in your household? - different types of colorful foods
+meal_women_meat,"How many meals a day and types of food are usually given to adolescent girls and young women (including you) in your household? - at least one meal includes fish, chicken, eggs or meat"
+know_anemia_ifa,What do you know about the need of supplementary foods and medicines for them to prevent anemia? - iron & folic acid
+know_anemia_deworming,What do you know about the need of supplementary foods and medicines for them to prevent anemia? - de-worming medicine
+know_anemia_diary,"What do you know about the need of supplementary foods and medicines for them to prevent anemia? - fish, milk, egg"
+know_anemia_veg,What do you know about the need of supplementary foods and medicines for them to prevent anemia? - vegetables
+know_anemia_fruit,What do you know about the need of supplementary foods and medicines for them to prevent anemia? - fruits
+know_anemia_other,What do you know about the need of supplementary foods and medicines for them to prevent anemia? - other
+take_anemia_freq_ifa_weekly,Takes IFA (iron & folic acid) weekly
+take_anemia_freq_deworm_bianual,Takes de-worming medicine twice a year
+take_anemia_freq_other,Takes IFA (iron & folic acid) at another frequency
+anc_yn,"When you were pregnant, did you receive antenatal care services?"
+anc_num,"If yes, how many time did you visit for ANC services?"
+anc_where_home,Where did you receive ANC services? - at home
+anc_where_community_clinic,Where did you receive ANC services? - community clinic
+anc_where_union_centre,Where did you receive ANC services? - Union Helath & Family Welfare Centre
+anc_where_gov_hospital,Where did you receive ANC services? - Other government hospital
+anc_where_ngo_clinic,Where did you receive ANC services? -  NGO-run clinic
+anc_where_private,Where did you receive ANC services? - Private doctor/clinic/hospital
+anc_card,Can you show your ANC service record/card?
+know_nutri_pregnant_health,What do you know about the benefits of sufficient nutritious foods and extra care for pregnant women? - Improves health / helps maintain strength
+know_nutri_pregnant_miscarriage,What do you know about the benefits of sufficient nutritious foods and extra care for pregnant women? - Reduces risk of miscarriage
+meal_pregnant_extra_food,What nutritious foods were you or other pregnant women getting? - extra bowl of food a day
+meal_pregnant_diverse,What nutritious foods were you or other pregnant women getting? - getting different types of food
+meal_pregnant_meat,"What nutritious foods were you or other pregnant women getting? - eating fish, meat, eggs, chicken at least once a day"
+meal_pregnant_extra_meal,What nutritious foods were you or other pregnant women getting? - Getting at least one extra meal per day
+meal_pregnant_other,What nutritious foods were you or other pregnant women getting? - Other
+care_pregnant_rest,"Apart from foods, what extra cares were you or pregnant women getting? - Getting adequate rest and are advised to avoid  carrying heavy objects"
+care_pregnant_anc,"Apart from foods, what extra cares were you or pregnant women getting? - Regularly taken to health facility for ANC visits & services"
+care_pregnant_supplements_healthworker,"Apart from foods, what extra cares were you or pregnant women getting? - Getting calcium and IFA tablets daily from the health worker"
+care_pregnant_supplements_home,"Apart from foods, what extra cares were you or pregnant women getting? - Taking IFA with food to prevent nausea and drink lots of water"
+care_pregnant_iodized_salt,"Apart from foods, what extra cares were you or pregnant women getting? - Using iodized salt"
+care_pregnant_other,"Apart from foods, what extra cares were you or pregnant women getting? - Other"
+child_age,"How old is your last child now? (in months, bucketed by year)"
+know_eib_benefit_stimulate_milk,What do you know about the benefits of early initiation of breastfeeding? - It stimulates milk production and prevent hemorrhage
+know_eib_benefit_illness,"What do you know about the benefits of early initiation of breastfeeding? - It helps to protect the infant from illness, and to expel illness"
+know_eib_benefit_expel_placenta,What do you know about the benefits of early initiation of breastfeeding? - Helps expel the placenta and reduces postpartum bleeding
+know_eib_benefit_health_child,What do you know about the benefits of early initiation of breastfeeding? - Children become healthy
+know_eib_benefit_other,What do you know about the benefits of early initiation of breastfeeding? - Other
+know_ebf_benefit_nutri,"What do you know about the benefits of exclusive breastfeeding to babies from birth up 6 months of age? - It provides the best possible nourishment for babies, builds strength"
+know_ebf_benefit_stimulate_milk,What do you know about the benefits of exclusive breastfeeding to babies from birth up 6 months of age? - Helps produce enough milk flow and ensures enough food for my baby
+know_ebf_benefit_health_child,What do you know about the benefits of exclusive breastfeeding to babies from birth up 6 months of age? - Helps babies to grow healthy and strong
+know_ebf_benefit_other,What do you know about the benefits of exclusive breastfeeding to babies from birth up 6 months of age? - Other
+postnatal_skin_contact,"Can you remember, what did you do first/immediately after giving birth to your child? - Put my baby on my breast (skin-to-skin touch) immediately"
+postnatal_eibf,"Can you remember, what did you do first/immediately after giving birth to your child? - I started early initiation of breastfeeding i.e. giving breast milk"
+postnatal_other,"Can you remember, what did you do first/immediately after giving birth to your child? - Other"
+eibf_first,How long after birth did you first put your baby to the breast?
+child_3days_food_yn,"In the first three days after delivery, was your baby given anything to drink other than breast milk?"
+child_3days_milk,"If yes, what? - Milk (other than breast milk)"
+child_3days_water,"If yes, what? - Plain water"
+child_3days_sugarwater,"If yes, what? - Sugar or glucose water"
+child_3days_gripewater,"If yes, what? - Gripe water"
+child_3days_ors,"If yes, what? - ORS (oral rehydration solution)"
+child_3days_fruitjuice,"If yes, what? - Fruit juice"
+child_3days_formula,"If yes, what? - Infant formula"
+child_3days_honey,"If yes, what? - Honey"
+child_3days_tea,"If yes, what? - Tea"
+child_3days_coffee,"If yes, what? - Coffee"
+child_3days_other,"If yes, what? - Other"
+child_6mon_food_yn,"In the first 6 months after your baby was born, was s/he given anything to drink or eat other than breast milk?"
+child_6mon_milk,"If yes, what? - Milk (other than breast milk)"
+child_6mon_water,"If yes, what? - Plain water"
+child_6mon_sugarwater,"If yes, what? - Sugar or glucose water"
+child_6mon_gripewater,"If yes, what? - Gripe water"
+child_6mon_ors,"If yes, what? - ORS"
+child_6mon_fruitjuice,"If yes, what? - Fruit juice"
+child_6mon_formula,"If yes, what? - Infant formula"
+child_6mon_honey,"If yes, what? - Honey"
+child_6mon_tea,"If yes, what? - Tea"
+child_6mon_coffee,"If yes, what? - Coffee"
+child_6mon_rice,"If yes, what? - Rice"
+child_6mon_fruit_veg,"If yes, what? - Fruits/vegetables"
+child_6mon_suji,"If yes, what? - Rice powder/ Suji"
+child_6mon_other,"If yes, what? - Other"
+ebf_how_only_breast,What did you do to make sure that your baby from the birth to 6 months of age was exclusively breastfed? - Gave only breast milk- and no water or other liquids or food
+ebf_how_breast_often,What did you do to make sure that your baby from the birth to 6 months of age was exclusively breastfed? - Breastfeed as often as my baby wants to eat -at least eight times a day
+cbf_till_age,For how many months did you breastfeed your last child?
+pnc_within_2days,Did you receive PNC services within 2 days of birth?
+pnc_num,How many times did you receive PNC
+pnc_where_home,Where did you receive PNC services from? - At home
+pnc_where_community_clinic,Where did you receive PNC services from? - Community Clinics
+pnc_where_union_centre,Where did you receive PNC services from? - Union Health & Family Welfare Center (UH&FWC)
+pnc_where_gov_hospital,Where did you receive PNC services from? - Other government hospitals
+pnc_where_ngo_clinic,Where did you receive PNC services from? - NGO-run clinics
+pnc_where_private,Where did you receive PNC services from? - Private doctor/clinics/hospitals
+pnc_where_other,Where did you receive PNC services from? - Other
+pnc_card,Can you show your PNC records/card?
+meal_breast_extra,"When you were breastfeeding, what did you usually eat? - Eat two extra bowls of food"
+meal_breast_vitamins,"When you were breastfeeding, what did you usually eat? - Receive enough vitamins and minerals"
+meal_breast_diverse,"When you were breastfeeding, what did you usually eat? - Eat many different types of foods"
+meal_breast_water,"When you were breastfeeding, what did you usually eat? - Drink plenty of clean/safe water"
+meal_breast_ifa,"When you were breastfeeding, what did you usually eat? - Continue taking IFA supplements for three months after delivery"
+meal_breast_other,"When you were breastfeeding, what did you usually eat? - Other"
+know_cbf_need_more,"What do you know about the complementary feeding to baby in 6 months and beyond and its benefits to them? - until six months, breast milk alone was no longer enough"
+know_cbf_nutrients,What do you know about the complementary feeding to baby in 6 months and beyond and its benefits to them? - It ensures important and added source of nutrients to protect the baby
+know_cbf_other,What do you know about the complementary feeding to baby in 6 months and beyond and its benefits to them? - Other
+cbf_first_food_mashed,What did you do when introducing complementary feeding to your baby? - Gave pureed or mashed food twice a day when s/he was six months
+cbf_first_food_rice_veg,"What did you do when introducing complementary feeding to your baby? - Gave rice, dark green leafy vegetables, fish, meat, and eggs"
+cbf_first_food_breastmilk,What did you do when introducing complementary feeding to your baby? - Also continue breastfeeding until s/he is two years or beyond
+cbf_first_food_iodized_salt,What did you do when introducing complementary feeding to your baby? - Use iodized salt whenever possible in family foods
+cbf_first_food_hotchpotch,What did you do when introducing complementary feeding to your baby? - Hotchpotch (Khichuri)
+cbf_first_food_other,What did you do when introducing complementary feeding to your baby? - other
+cbf_later_food_veg,What varied diet did you feed your young child (six months and beyond)? - Add colorful foods like vegetables and fruits that are orange
+cbf_later_food_meat,"What varied diet did you feed your young child (six months and beyond)? - Add animal-source foods such as fish, eggs, chicken, liver,"
+cbf_later_food_oil,"What varied diet did you feed your young child (six months and beyond)? - Add a little butter, spoon oil, palm oil, vegetable oil"
+cbf_later_food_breastmilk,What varied diet did you feed your young child (six months and beyond)? - Keep breastfeeding until s/he is 24 months or older
+cbf_later_other,What varied diet did you feed your young child (six months and beyond)? - Other
+cbf_6to12mon_2meals,"How was feeding frequency and quantity for children aged six up to 12 months? - Between the ages of six and 11 months, fed him/her two to three times per day"
+cbf_6to12mon_2mashed_snacks,How was feeding frequency and quantity for children aged six up to 12 months? - Added one or two nutritious pureed or mashed snacks each day
+cbf_6to12mon_8breastmilk,How was feeding frequency and quantity for children aged six up to 12 months? - Continue breastfeeding 8 to 10 times every day
+cbf_6to12mon_iodized_salt,How was feeding frequency and quantity for children aged six up to 12 months? - Use iodized salt to prepare foods for the child
+cbf_6to12mon_other,How was feeding frequency and quantity for children aged six up to 12 months? - Other
+cbf_12to24mon_3meals,How was feeding frequency and quantity for children aged six up to 12 months? - Fed him/her at least three to four times a day
+cbf_12to24mon_3meals_snacks,How was feeding frequency and quantity for children aged six up to 12 months? - Fed him/her family foods plus one or two snacks- also solid
+cbf_12to24mon_veg,How was feeding frequency and quantity for children aged six up to 12 months? - Include a variety of orange and red vegetables and fruits
+cbf_12to24mon_meat,"How was feeding frequency and quantity for children aged six up to 12 months? - Include animal-source foods (i.e., fish, eggs, chicken, liver, milk)"
+cbf_12to24mon_iodized_salt,How was feeding frequency and quantity for children aged six up to 12 months? - Use iodized salt to prepare food for the whole family
+cbf_12to24mon_breastmilk,How was feeding frequency and quantity for children aged six up to 12 months? - Continue breastfeeding up to 24 months and even beyond
+childu2_sick_yn,Has your infant or child (<24m) ever got sick?
+childu2_sick_more_breastmilk,"If yes, how did you feed sick children during and after illness? - Continue breastfed more often and longer than usual"
+childu2_sick_more_food,"If yes, how did you feed sick children during and after illness? - Offered additional food to children aged six months and older"
+childu2_sick_higher_food_freq,"If yes, how did you feed sick children during and after illness? - Gave food in small quantities throughout the day"
+childu2_sick_other,"If yes, how did you feed sick children during and after illness? - other"
+childu2_diagnosed_mam,Has s/he ever suffered from diarrhea/MAM (moderate acute malnutrition) as per doctor?
+childu2_diagnosed_num,"If yes, how many time s/he got suffered from?"
+childu2_mam_give_more_breastmilk,What nutritional care did you take for you MAM (moderate acute malnutrition) child? - Breastfed the child more frequently
+childu2_mam_give_more_food,What nutritional care did you take for you MAM child? - Gave the child extra food
+childu2_mam_give_ors,"What nutritional care did you take for you MAM child? - When s/he was very sick and dehydrated, gave ORS"
+childu2_mam_zinc,What nutritional care did you take for you MAM child? - Gave Zinc for the exact time period specified by the health
+childu2_diagnosed_sam,Has your child ever suffered from SAM (severe acute malnutrition) as per Doctor?
+childu2_mam_ens_yn,"If suffered, did the child receive Emergency Nutrition Services?"
+childu2_mam_ens_gov_hospital,"From where did the child receive those services? - Government hospital (at UZ, district, or above)"
+childu2_mam_ens_community_clinic,From where did the child receive those services? - Community Clinic
+childu2_mam_ens_private,From where did the child receive those services? - Private Clinic
+childu2_mam_ens_maxfoundation,From where did the child receive those services? - Max Foundation CHPs (community health professionals)
+childu5_diagnosed_mam,Has your young child (24 - 59 months) ever suffered from MAM (moderate acute malnutrition) according to doctor?
+childu5_mam_give_more_breastmilk,"If yes, what nutritional care did you take for them? - Breastfed the child more frequently"
+childu5_mam_give_more_food,"If yes, what nutritional care did you take for them? - Gave the child extra food"
+childu5_mam_give_ors,"If yes, what nutritional care did you take for them? - When s/he was very sick and dehydrated, gave ORS"
+childu5_mam_zinc,"If yes, what nutritional care did you take for them? - Gave Zinc for the exact time period specified by the health professional"
+childu5_diagnosed_sam,Has your young child ever suffered from SAM (severe acute malnutrition) according to doctor?
+childu5_mam_ens_yn,"If suffered, did the child receive Emergency Nutrition Services?"
+childu5_mam_ens_gov_hospital,"From where did the child receive those services? - Government hospital (at UZ, district, or above)"
+childu5_mam_ens_private,From where did the child receive those services? - Private Clinic
+childu5_mam_ens_maxfoundation,From where did the child receive those services? - Max Foundation CHP (community health professionals)
+childu5_sam_inpatient,Have you ever taken in-patient management of SAM children?
+childu5_sam_outpatient,Have you ever taken out-patient (OPD) services for SAM child?
+know_micro_benefit_health,What do you know about the benefits of micro-nutrient supplementation for lactating a mother? - Helps maintain baby's and mother's strength and health
+know_micro_benefit_more_breast,What do you know about the benefits of micro-nutrient supplementation for lactating a mother? - Helps flow of breast-milk to be produced sufficiently
+know_micro_benefit_supplement,What do you know about the benefits of micro-nutrient supplementation for lactating a mother? - Mothers felt no need to give supplementary foods to baby
+know_micro_benefit_prevent_illness,What do you know about the benefits of micro-nutrient supplementation for lactating a mother? - Helps mothers and baby to be protected from illness
+take_supp_pregnant_yn,Have you gotten micro-nutrient supplementation during your pregnancy or lactating period?
+take_supp_pregnant_vit_a,"If yes, what kind of supplementation did you get? - Food rich in vitamin A"
+take_supp_pregnant_vit_varied,"If yes, what kind of supplementation did you get? - A varied diet with all the vitamins needed"
+take_supp_pregnant_meat,"If yes, what kind of supplementation did you get? - Animal-source food (i.e., fish, eggs, chicken, liver)"
+take_supp_pregnant_fortified,"If yes, what kind of supplementation did you get? - Fortified foods when they are available"
+take_supp_pregnant_iodized_salt,"If yes, what kind of supplementation did you get? - Coverage with iodized salt"
+take_supp_child_continued_breast,What micronutrient supplementation are infants and young children in your households getting? - Continued breastfeeding
+take_supp_child_complement_breast,What micronutrient supplementation are infants and young children in your households getting? - Complementary feeding from 6 up to 23 months
+take_supp_child_vit_a,What micronutrient supplementation are infants and young children in your households getting? - Vitamin A supplementation in infants and children 6-59 month
+take_supp_child_iron,What micronutrient supplementation are infants and young children in your households getting? - Daily iron supplementation for children 6-23 months of age
+take_supp_child_zinc,What micronutrient supplementation are infants and young children in your households getting? - Zinc supplementation to children with diarrhea
+take_supp_child_other,What micronutrient supplementation are infants and young children in your households getting? - Other
+help_supp_child_hpa,How is micronutrient supplementation ensured for 6-59 months children? - Linkage through Health Promotion Agent
+help_supp_child_gov,How is micronutrient supplementation ensured for 6-59 months children? - Government supplies for 6-59 months
+help_supp_child_ngo,How is micronutrient supplementation ensured for 6-59 months children? - Project subsidy
+help_supp_child_none,How is micronutrient supplementation ensured for 6-59 months children? - It is not
+help_supp_child_other,How is micronutrient supplementation ensured for 6-59 months children? - Other
+help_supp_women_hpa,How is micronutrient supplementation ensured for adolescents and women? - Linkage through HPA
+help_supp_women_gov,How is micronutrient supplementation ensured for adolescents and women? - Government supplies for adolescent
+help_supp_women_ngo,How is micronutrient supplementation ensured for adolescents and women? - Project subsidy
+help_supp_women_none,How is micronutrient supplementation ensured for adolescents and women? - It is not
+help_supp_women_other,How is micronutrient supplementation ensured for adolescents and women? - other
+child_received_vit_a,Has your child ever received Vitamin A supplementation?
+child_received_vit_a_before6,Has the child received their first Vitamin A supplementation when they reach 6 months of age?
+child_received_vit_a_continued,Does Vitamin A supplementation continue twice a year for children aged 6-24 months?
+prevent_anemia_none,"What do your family do for preventing anemia among women and children (6-24 months)? - Do little or nothing about this, can't explain"
+prevent_anemia_diverse,What do your family do for preventing anemia among women and children (6-24 months)? - A varied diet with all the vitamins needed by women and children
+prevent_anemia_meat,"What do your family do for preventing anemia among women and children (6-24 months)? - Animal-source food (i.e., fish, eggs, chicken, liver, and others)"
+prevent_anemia_fortified,What do your family do for preventing anemia among women and children (6-24 months)? - Fortified foods as available
+prevent_anemia_deworm,"What do your family do for preventing anemia among women and children (6-24 months)? - Deworming medicine twice a year, and continue up to five years"
+child_received_deworm,Has the child received a deworming tablet in the last 6 months?
+child_received_monimix_7days,"In last 7-days, was the child given any ready-to-use therapeutic feed like MONIMIX?"
+garden_veg_yn,Does your household have a homestead vegetable garden?
+garden_veg_leafy,"If yes, what type of vegetables do you produce? - Leafy vegetables"
+garden_veg_other,"If yes, what type of vegetables do you produce? - Other vegetables"
+garden_veg_purpose_consumption,For what purpose do you use the product from homestead vegetable garden? - Usually used for eating for household member
+garden_veg_purpose_sell,For what purpose do you use the product from homestead vegetable garden? - For selling in the market
+garden_fruit_yn,Does your household have fruit plants?
+garden_fruit_banana,"If yes, which fruits do you usually produce? - Banana"
+garden_fruit_guava,"If yes, which fruits do you usually produce? - Guava"
+garden_fruit_papaya,"If yes, which fruits do you usually produce? - Papaya"
+garden_fruit_lemon,"If yes, which fruits do you usually produce? - Lemon"
+garden_fruit_coconut,"If yes, which fruits do you usually produce? - Coconut"
+garden_fruit_mango,"If yes, which fruits do you usually produce? - Mango"
+garden_fruit_jackfruit,"If yes, which fruits do you usually produce? - Jackfruit"
+garden_fruit_lychi,"If yes, which fruits do you usually produce? - Lychi"
+garden_fruit_amra,"If yes, which fruits do you usually produce? - Amra"
+garden_fruit_jamrul,"If yes, which fruits do you usually produce? - jamrul"
+garden_fruit_boroi,"If yes, which fruits do you usually produce? - Boroi"
+garden_fruit_berry,"If yes, which fruits do you usually produce? - Berry"
+garden_fruit_sofeda,"If yes, which fruits do you usually produce? - Sofeda"
+garden_fruit_palm,"If yes, which fruits do you usually produce? - Palm"
+garden_fruit_dalim,"If yes, which fruits do you usually produce? - Dalim"
+garden_fruit_chalta,"If yes, which fruits do you usually produce? - Chalta"
+garden_fruit_jambura,"If yes, which fruits do you usually produce? - Jambura"
+garden_fruit_kamranga,"If yes, which fruits do you usually produce? - Kamranga"
+garden_fruit_other,"If yes, which fruits do you usually produce? - Others"
+garden_fruit_purpose_consumption,For what purpose do you use the products from fruit plant? - Usually used for eating for household member
+garden_fruit_purpose_sell,For what purpose do you use the products from fruit plant? - For selling in the market
+poultry_own,Does your household have its own poultry?
+poultry_chicken,"If yes, what does your poultry produce? - Chicken and eggs"
+poultry_duck,"If yes, what does your poultry produce? - Ducks and eggs"
+poultry_pigeon,"If yes, what does your poultry produce? - Pigeon"
+poultry_purpose_consumption,For what purpose do you use the product from poultry? - Usually used for eating for household member
+poultry_purpose_sell,For what purpose do you use the product from poultry? - For selling in the market
+food_3meals_often,How often does your household consume three meals a day?
+food_access,To what extent does you household members have access to essential major foods?
+food_access_fortified_baby_food,"If full or limited access, which food do you have access to? - Commercially fortified baby food like CERELAC"
+food_access_grains,"If full or limited access, which food do you have access to? - Bread, rice, noodles, porridge, or other grains"
+food_access_veg_orange,"If full or limited access, which food do you have access to? - Pumpkin, carrots, squash or sweet potatoes that are yellow o"
+food_access_potatoe,"If full or limited access, which food do you have access to? - White potatoes, white yams, manioc, cassava or any other foo"
+food_access_veg_green,"If full or limited access, which food do you have access to? - Any dark green leafy vegetables like spinach, poi sag, methi"
+food_access_fruit_vit_a,"If full or limited access, which food do you have access to? - Ripe mangoes, papayas, jackfruits, bangi or other vitamin A"
+food_access_fruit_veg_other,"If full or limited access, which food do you have access to? - Fruits like banana, grapes, apple, guava or other vegetables"
+food_access_offval,"If full or limited access, which food do you have access to? - Liver, kidney, heart or other organ meats"
+food_access_meat,"If full or limited access, which food do you have access to? - Meats like beef, lamb, mutton, chicken or duck"
+food_access_eggs,"If full or limited access, which food do you have access to? - Eggs, fishes, or crabs"
+food_access_pulses,"If full or limited access, which food do you have access to? - Any foods made from beans, peas, lentils or nuts"
+food_access_dairy,"If full or limited access, which food do you have access to? - Cheese or other foods alike made from milk"
+food_access_sweets,"If full or limited access, which food do you have access to? - Any other solid, semi-solid or soft food (Bengali sweets)"
+food_access_meets_needs,To what extent does present level of access meet the nutritional requirements of your HH?
+food_source_own_produce,What is the major source of nutrient foods of the household? - Own homestead vegetable plot/gardens
+food_source_market,What is the major source of nutrient foods of the household? - Buying from markets
+food_source_government,What is the major source of nutrient foods of the household? - Government supplies
+food_source_ngo,What is the major source of nutrient foods of the household? - NGO supplies
+nutri_advice_provider_health_dep,"As of your knowledge, who are major nutritional service providers in your area? - Government health department"
+nutri_advice_provider_other_gov,"As of your knowledge, who are major nutritional service providers in your area? - Government - other department/agency"
+nutri_advice_provider_maxfoundation,"As of your knowledge, who are major nutritional service providers in your area? - HPA - Max Foundation"
+nutri_advice_provider_ngo,"As of your knowledge, who are major nutritional service providers in your area? - NGOs other than Max Foundation"
+nutri_advice_provider_other,"As of your knowledge, who are major nutritional service providers in your area? - Other"
+nutri_advice_access,To what extent does your household have access to nutritional services?
+growth_measure_regular,Do you regularly measure child growth (weight & height)?
+growth_measure_chart,"If yes, do you preserve growth chart?"
+growth_think_height_good,"As per growth chart, do you think that your child has appropriate height by age?"
+growth_think_weight_good,"As per growth chart, do you think that your child has appropriate weight by age?"
+know_fns_stable_income,What do you know about food and nutrition security for children? - Stable economic ability of the household
+know_fns_diverse,What do you know about food and nutrition security for children? - Availability of diversified foods for children
+know_fns_fresh_food,What do you know about food and nutrition security for children? - Availability of fresh foods for children - no reheated food
+know_fns_well_preserved,What do you know about food and nutrition security for children? - Necessary foods are well preserved
+think_child_food_secure,Do you think that children of your household are food secure?
+fns_prep_where_floor,Where do you prepare food for cooking? - Kitchen floor (unhygienic)
+fns_prep_where_soil_top,Where do you prepare food for cooking? - Open soil top (unhygienic)
+fns_prep_where_table,Where do you prepare food for cooking? - Surface of food preparation or dining table
+fns_prep_where_special_pot,Where do you prepare food for cooking? - Special pots used for food preparation
+fns_surface_clean_yn,Do you wash the food preparation surfaces?
+fns_surface_clean_before,When do you wash the surfaces? - Before food preparation
+fns_surface_clean_after,When do you wash the surfaces? - After food preparation
+fns_surface_clean_with,With what do you wash the surfaces?
+fns_wash_food,Do you wash your foods before cooking?
+fns_store_food_covered_pan,Where and how do you store cooked food? - Within covered cooking utensils - open space
+fns_store_food_covered_box,Where and how do you store cooked food? - Within covered plastic containers/boxes - open space
+fns_store_food_fridge,Where and how do you store cooked food? - Fridge within plastic boxes/pots
+fns_reheat_stored_food,Do you reheat stored food?
+fns_dishes_clean_open_water,How do you wash your dishes and cooking utensils? - With pond/ditch/river water
+fns_dishes_clean_safe_water,How do you wash your dishes and cooking utensils? - With tube-well water only
+fns_dishes_clean_soap_safe_water,How do you wash your dishes and cooking utensils? - With tube-well water and detergent/soaps

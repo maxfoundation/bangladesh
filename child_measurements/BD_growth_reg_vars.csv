@@ -1,0 +1,28 @@
+﻿variable,meaning
+district,Highest level of administrative unit
+upazila,Administrative unit
+union,Administrative unit
+ward,"Administrative unit (anonymised, consistent between data sets)"
+village,"Administrative unit (anonymised, consistent between data sets)"
+hh_id,"ID for the household (anonymised, inconsistent between data sets)"
+child_id,"ID for the child (anonymised, not present in other data sets). NB each child should be registered just once, those who are registered multiple times are flagged (see flag_duplicated)"
+date,Date of the measurement (rounded to quarters)
+gender,Gender of the child (M/F)
+dob,Date of birth of the child (roudned to quarters). NB children registered several times with different dates of birth are flagged (see flag_different_dob)
+height,Child height (with noise added of +/- 1cm)
+weight,Child weight (with noise added of +/- 1kg)
+age_days,Age of the child in days
+cbmi,Child BMI
+zlen,Z-score for length-for-age
+flen,Flag indicating whether the zlen variable falls outside the bounds set by the WHO
+zwei,Z-score for weight-for-age
+fwei,Flag indicating whether the zwei variable falls outside the bounds set by the WHO
+zwfl,Z-score for weight-for-length
+fwfl,Flag indicating whether the zwfl variable falls outside the bounds set by the WHO
+zbmi,Z-score for the child's BMI
+fbmi,Flag indicating whether the zbmi variable falls outside the bounds set by the WHO
+flag_duplicated,Flag indicating whether the child_id has been registered twice
+flag_different_dob,Flag indicating whether the child_id was registered twice with different dates of birth
+flag_obs_number,"When flag_duplicated is TRUE, this flag indicates whether this is the first, second, etc. registration of that id_name"
+flag_dob_number,"When flag_different_dob is TRUE, this flag indicates with which date of birth the z-scores were derived"
+flag_flip,"Flag indicating whether the height and weight for this child were flipped around. For all children the flipped z-score is calculated, and only if no WHO-flags are TRUE, are the values flipped. Though not very common, some children are for instance given a height of 5 and weight of 60. These values are both clearly impossible and changing them to be a height of 60 and weight of 5 is taken when this sets of no WHO-flags"

@@ -1,0 +1,34 @@
+﻿variable,meaning
+village             ,"Administrative unit (anonymised, consistent between data sets)"
+date,Date of measurement (rounded to quarters)
+year,Year of measurement
+quarter,Quarter of measurement
+pop_hh,Number of households in the village (bucketed by 20 households; minimum 30 and maximum 450)
+pop_total,"Number of people in the village (bucketed by 50 peole; minimum 125, maximum 1825)"
+pop_reproductive,"Number of people of reproductive age (bucketed by 30 people; minimum 45, maximum 465)"
+pop_pregnant,Number of pregnant women (bucketed by 2; maximum at 10)
+pop_newmother,Number of new mothers (bucketed by 2; maximum at 20)
+pop_u2,Number of children under 2 (bucketed by 4; maximum at 62)
+pop_u5,Number of children between 2 and 5 (bucketed by 4; maximum at 62)
+score_water,Percentage of people with access to safe water
+score_sani,Percentage of people with access to improved sanitation
+score_basin_dine,Percentage of households with a handwashing device in their dining area
+score_basin_latrine,Percentage of households with a handwashing device near their latrine
+score_clean,Percentage of households with clean surroundings
+score_wash,Percentage of households who wash their hands at all important times
+score_nutri,Percentage of households with home-based nutrition (homestead gardens)
+score_eibf,Percentage of women practicing early initiation breastfeeding
+score_ebf,Percentage of women practicing exclusive breast feeding (for under 6 months)
+score_contbf,Percentage of women practicing continuous breast feeding (for under 2)
+score_compbf,Percentage of women practicing complementary breast feeding (for 6months-2years)
+score_growth,Percentage of children under 5 who have their growth measured on a growth chart
+score_ena_mal,Percentage of malnourished children who received Emergency Nutritional Assistance
+score_ena_stunt,Percentage of stunted children who received Emergency Nutritional Assistance
+score_wbc,Percentage of women who have access to a women bathing chamber
+score_anc,Percentage of pregnant women who received antenatal care
+score_pnc,Percentage of new mothers who received postnatal care
+score_napkin,Percentage of women who have access to sanitary napkins
+tot_score_wash,Total score on the WASH indicators (lowest value reached)
+tot_score_nutri,Total score on the nutrition indicators (lowest value reached)
+tot_score_srhr,Total score on SRHR and Baby WASH indicators (lowest value reached)
+tot_score_hv,Total Healthy Village Score (lowest value reached)

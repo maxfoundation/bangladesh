@@ -1,0 +1,21 @@
+# Anthropometric Measurements of Children
+
+### Content
+Anthropomorphic measures (height and weight) are taken quarterly in 'Courtyard Session'. These are organised either by Max Foundation staff, or entrepreneurs linked to our programmes. These data contain all measurements taken since 2018. To ensure the children's privacy, we have censored all date-information to the quarterly level. However, the z-scores were calculated in R, using the WHO's 'anthro' package using the exact age of children in days. The only change we have made to the z-scores in these data is to round (down for positive values, up for negative values) z-scores to 1 decimal to protect children's privacy. 
+
+All datasets we publish can be linked together at the village-level, and we encourage everyone to not look at these data in isolation, but link it to our other datasets to create richer analyses. 
+
+### Privacy and links to our other data
+All of Max Foundation's data are collected and processed according to GDPR standards and explicit informed consent is given by the parents of the children. 
+
+Furthermore, we enforce strong privacy protections on our open data to minimise the risk of these data being used to cause harm or re-identify individuals.
+Concretely this means:
+- Administrative units up to the Union can be directly identified with the BD _loc _xx data (which can be found in the "location_info" folder). Village are masked by random numbers. However, to ensure it is still possible to compare our datasets, these random numbers are consistent across all datasets. This means that village '1' in this data is the same as village '1' in all of our other Bangladesh datasets, unless stated otherwise;
+- Household numbers are randomised and these are NOT kept the same between datasets;
+- Dates are censored to the quarter in which the measurements were taken;
+- Height and weight measurements are changed by adding noise (+/-1 cm or kg) to the actual measurements;
+- Z-scores are censored to to 1 decimal place (rounded up for negative values, down for positive ones).
+
+The column descriptions specify any transformations done to the data.
+
+The IDs for children and households are consistent between the two datasets in this file, they are just not consistent with any of Max Foundation's other datasets. 

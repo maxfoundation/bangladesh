@@ -1,0 +1,19 @@
+# 2019 Nutrition Survey
+
+### Content
+These data were collected between Q2 and Q3 in 2019 (with a few observations earlier and later) in the areas in Bangladesh where Max Foundation is active. 
+The data were collected on a representative sample of the households in the area which includes at least one child between the age of 2 and 5. The data provide a very detailed picture of the nutritional status of households as well as their knowledge, attitudes and practices in nutrition and especially child nutrition. 
+As this information was collected by a third partner, some information information is missing. We cleaned the data to the best of our ability, and feel very confident on the district, upazila and union information. Village numbers are often missing and ward numbers were inferred for much of the data, and may therefore not always be accurate. We regret this lapse in quality. 
+
+All datasets we publish can be linked together at the village-level, and we encourage everyone to not look at these data in isolation, but link it to our other datasets to create richer analyses. 
+
+
+### Privacy and links to our other data
+All of Max Foundation's data are collected and processed according to GDPR standards and explicit informed consent is given by all respondents. 
+
+Furthermore, we enforce strong privacy protections on our open data to minimise the risk of these data being used to cause harm or re-identify individuals.
+Concretely this means:
+- Administrative units up to the Union can be directly identified with the BD _loc _xx data (which can be found in the "location_info" folder). Village are masked by random numbers. However, to ensure it is still possible to compare our datasets, these random numbers are consistent across all datasets. This means that village '1' in this data is the same as village '1' in all of our other Bangladesh datasets, unless stated otherwise;
+- Sensitive variables are omitted, censored or bucketed.
+
+The column descriptions specify any transformations done to the data.

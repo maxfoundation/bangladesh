@@ -1,0 +1,16 @@
+﻿variable,meaning
+union,Administrative unit
+latrines,Number of latrines installed and/or repaired through the programme (either directly or indirectly)
+tube_wells,Number of tube wells installed and/or repaired through the programme (either directly or indirectly)
+women_bathing_chambers,Number of women's bathroom installed and/or repaired through the programme (either directly or indirectly)
+hand_washing_devices,Number of hand-washing devices installed and/or repaired through the programme (either directly or indirectly) for both in dining and in/near latrine
+organised,Number of courtyard session organised
+turnout,Average number of people attending each session
+count_anc_received,Number  of pregnant women having received at least 4 ANC check-ups 
+perc_anc_received,Percentage of pregnant women having received at least 4 ANC check-ups 
+count_pnc_received,Number  of pregnant women having received at least 4 PNC check-ups 
+perc_pnc_received,Percentage of pregnant women having received at least 4 PNC check-ups 
+count_anc_referral,Number of pregnant women who were referred to a health facility after ANC check-up 
+perc_anc_referral,Percentage of pregnant women who were referred to a health facility after ANC check-up 
+count_pnc_referral,Number of new mothers who were referred to a health facility after PNC check-up 
+perc_pnc_referral,Percentage of new mothers who were referred to a health facility after PNC check-up 
